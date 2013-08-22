@@ -1,0 +1,6 @@
+Write a program which takes "students.txt" as the input file and generates an
+output file called "students.out.txt" with 3 additional columns:
+
+  Total: Total of all the marks
+  Percentage: Max marks is 600
+  Rank: Rank of the student in the class

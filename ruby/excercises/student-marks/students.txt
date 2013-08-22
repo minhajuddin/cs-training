@@ -1,0 +1,102 @@
+HallTicket, Name, English, Hindi, Telugu, Maths, Science, Social
+36716, Naomi Hills DVM, 34, 54, 67, 65, 69, 73
+27883, Freeman Ryan, 72, 69, 73, 68, 39, 93
+21221, Keanu Hyatt, 48, 80, 94, 71, 75, 56
+56464, Mr. Penelope Rogahn, 62, 30, 85, 44, 53, 47
+34554, Mike Spencer, 60, 47, 43, 77, 73, 72
+28685, Ned Tremblay, 40, 63, 64, 45, 32, 93
+96477, Watson Marquardt, 37, 67, 82, 59, 31, 30
+66085, Vallie Johns, 66, 99, 74, 85, 34, 30
+52996, Mr. Madonna Mosciski, 94, 85, 56, 78, 36, 56
+26715, Miss Sallie Purdy, 72, 32, 72, 43, 96, 35
+14924, Beaulah Breitenberg, 86, 58, 41, 37, 94, 89
+77928, Donato Hermiston, 92, 96, 87, 73, 77, 73
+40165, Alfred Murazik, 72, 56, 49, 62, 56, 70
+2870, Miss Donato Klocko, 30, 34, 63, 40, 92, 56
+5787, Leonora Goyette I, 89, 86, 57, 41, 32, 75
+72176, Myrl Langosh, 53, 49, 71, 89, 79, 74
+31193, Claudine Schmitt, 65, 64, 57, 83, 32, 62
+19290, Johann Feeney, 35, 89, 80, 69, 52, 62
+78644, Pansy Carter, 78, 66, 84, 80, 60, 84
+53052, Shayna Buckridge, 77, 63, 90, 40, 86, 30
+19004, Giovanna Hahn, 73, 85, 68, 60, 42, 55
+49147, Dr. Leslie Torp, 99, 32, 52, 89, 57, 76
+34053, Dr. Claud Gottlieb, 36, 84, 86, 51, 43, 49
+38415, Jarvis Daugherty, 57, 67, 54, 89, 86, 79
+14503, Mrs. Donald Ward, 78, 46, 86, 77, 60, 51
+14578, Brenda Hartmann, 31, 32, 46, 71, 55, 86
+51218, Jerrold Kilback, 50, 49, 36, 93, 42, 57
+35635, April Marvin, 83, 91, 93, 68, 63, 78
+93850, Briana Dickinson II, 65, 80, 83, 59, 53, 81
+45082, Evert Pouros, 60, 97, 57, 43, 68, 44
+88902, Otis Corwin, 63, 32, 44, 66, 56, 98
+23778, Margot Mills, 74, 40, 76, 31, 88, 36
+9441, Liza Rempel, 62, 35, 82, 82, 52, 37
+20634, Berenice Bernhard, 32, 53, 94, 64, 57, 77
+69937, Durward Rau, 59, 32, 88, 61, 78, 89
+66294, Deja Shanahan, 49, 80, 36, 93, 44, 90
+23178, Jayson Raynor, 77, 92, 44, 93, 90, 90
+64306, Dr. Palma Bechtelar, 81, 43, 41, 83, 53, 57
+74135, Delphia Schmidt, 53, 80, 59, 83, 38, 40
+92522, Gus Kerluke, 84, 80, 44, 87, 46, 73
+91840, Ed Lebsack, 52, 81, 37, 68, 54, 75
+33063, Laverna Stiedemann, 77, 87, 45, 66, 42, 50
+7866, Geovanni Larson, 72, 80, 86, 73, 30, 63
+71630, Marjory Johnston, 55, 74, 61, 65, 72, 90
+73034, Mrs. Augusta Grady, 50, 33, 43, 93, 50, 67
+92812, Dr. Willie Kunde, 64, 50, 43, 33, 37, 64
+84233, Terrence Pfannerstill, 69, 62, 73, 96, 69, 94
+47382, Jonathon Romaguera MD, 77, 39, 47, 63, 66, 79
+39865, Doyle Witting DDS, 75, 62, 62, 59, 86, 39
+66242, Kaitlyn Rau II, 86, 77, 58, 90, 48, 37
+63885, Rollin Emmerich, 52, 59, 33, 37, 53, 57
+30554, Hildegard Hansen, 75, 88, 41, 65, 58, 59
+18552, Sim Stokes, 42, 44, 44, 87, 68, 35
+64445, Lilian Cummings, 92, 99, 78, 70, 59, 79
+74013, Isaac Kerluke, 48, 61, 71, 46, 75, 52
+44834, Art Gibson, 92, 84, 63, 43, 87, 75
+32090, Shaun Kovacek, 80, 53, 55, 68, 72, 39
+38194, Makayla Bartoletti DVM, 54, 31, 57, 98, 32, 48
+45165, Ned Hoeger, 76, 72, 34, 45, 73, 49
+13769, Alicia Wisozk DVM, 36, 57, 70, 97, 49, 73
+73754, Noelia Conn MD, 47, 42, 79, 42, 67, 43
+56123, Chadrick Altenwerth DVM, 55, 44, 54, 56, 35, 83
+95234, Myron Wisoky, 70, 85, 78, 91, 47, 56
+96692, Hailey Murazik, 73, 75, 51, 70, 81, 84
+94518, Gail O'Conner, 76, 34, 37, 90, 94, 40
+14959, Adrain Gleason II, 89, 75, 54, 47, 43, 33
+58143, Jessika Howe, 78, 49, 54, 60, 68, 72
+2290, Chris Romaguera Sr., 91, 30, 30, 74, 32, 80
+87466, Mrs. Matteo D'Amore, 71, 33, 63, 97, 49, 38
+59636, Freeda Mayer, 66, 60, 51, 63, 64, 77
+21497, Theron Davis, 88, 47, 50, 38, 49, 65
+88994, Crystel Volkman, 92, 59, 84, 89, 83, 90
+20508, Diego Kuhn MD, 86, 68, 50, 64, 32, 99
+97151, Bulah Terry, 54, 93, 37, 67, 93, 99
+57742, Jakayla Abshire, 95, 30, 66, 78, 35, 42
+98862, Mandy Metz, 55, 43, 64, 91, 91, 84
+66692, Peyton Shanahan, 99, 76, 44, 72, 38, 60
+54668, Ivah Kuvalis, 47, 51, 74, 47, 60, 43
+19330, Rosie O'Hara Sr., 38, 41, 92, 65, 33, 30
+99478, Dax Powlowski, 87, 32, 46, 72, 79, 60
+21699, Jedediah Padberg, 77, 62, 52, 87, 61, 59
+82024, Jamir Mohr, 78, 44, 40, 98, 87, 83
+19482, Donavon Lesch, 56, 62, 98, 49, 34, 99
+98211, Baylee Ritchie, 64, 47, 42, 93, 86, 64
+23052, Margarita Mante, 39, 92, 80, 70, 36, 36
+35955, Margarita Wisoky, 98, 67, 65, 89, 41, 51
+32888, Burley Waters, 62, 50, 47, 85, 94, 91
+21389, Hallie Ritchie, 81, 79, 35, 45, 87, 59
+62870, Stevie Larson, 44, 54, 32, 51, 48, 90
+67033, Saige Hegmann, 99, 53, 39, 69, 39, 54
+76813, Cleta Wehner, 75, 31, 77, 93, 61, 70
+67228, Mr. Presley Schneider, 67, 95, 46, 67, 90, 62
+57066, Kelsie Goodwin, 54, 73, 71, 99, 86, 99
+37760, Ludie Nitzsche, 80, 47, 79, 61, 92, 55
+49921, Hector Walker, 90, 66, 84, 41, 88, 74
+23815, Forrest Kshlerin, 38, 78, 67, 62, 54, 51
+5465, Ms. Martina Moen, 47, 82, 31, 53, 87, 73
+45462, Kenyon Lockman, 62, 50, 73, 34, 97, 76
+49280, Braden Reilly, 83, 60, 44, 47, 45, 96
+42726, Miss Dedric Donnelly, 37, 98, 40, 69, 87, 67
+
