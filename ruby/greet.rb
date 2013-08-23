@@ -1,3 +1,5 @@
 puts("What is your name?")
-name = gets()
-puts("Hello, " + name + "!")
+name = gets().chomp()
+#puts("Hello, " + name + "!")
+puts("Hello, #{name} !")
+puts('Hello, #{name} !')
