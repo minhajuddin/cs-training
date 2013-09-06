@@ -1,3 +1,5 @@
+FILE_NAME = 'contacts.txt'
+
 def add_contact
   #1. A user should be able to add a new contact *1 marks*
   puts "Name:"
@@ -9,10 +11,22 @@ def add_contact
   #puts "Address:"
   #address = gets.chomp.strip
 
-  f = File.open('contacts.txt', 'a+')
-  f.write "#{name}|#{email}\n"
-  #f.write "#{name} #{email} #{phone} #{address}"
-  f.close
+  File.open(FILE_NAME, 'a+') do |f|
+    f.write "#{name}|#{email}\n"
+  end
+end
+
+def view_contacts
+  puts "Contacts\n==========="
+  contacts = File.read(FILE_NAME).lines
+  contacts.each_with_index do |contact, i|
+    name, email = contact.split('|')
+    puts "#{i+1}."
+    puts "Name: #{name}"
+    puts "Email: #{email}"
+    puts '----------'
+  end
+  puts "==========="
 end
 
 while true
@@ -21,19 +35,6 @@ while true
   if option == 1
     add_contact
   elsif option == 2
-    puts "Contacts\n==========="
-    contacts = File.read('contacts.txt').split("\n")
-    i = 1
-    contacts.each do |contact|
-      contact_tokens = contact.split('|')
-      name = contact_tokens[0]
-      email = contact_tokens[1]
-      puts "#{i}."
-      puts "Name: #{name}"
-      puts "Email: #{email}"
-      puts '----------'
-      i += 1
-    end
-    puts "==========="
+    view_contacts
   end
 end
