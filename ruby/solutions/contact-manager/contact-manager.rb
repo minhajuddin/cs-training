@@ -45,8 +45,22 @@ def delete_contact
   end
 end
 
+def search_contact
+  puts "Enter search term:"
+  search_term = gets.chomp.strip
+  contacts = File.read(CONTACT_DATA_FILE).lines
+  contacts.each do |contact|
+    if contact.downcase.include?(search_term.downcase)
+      name, email = contact.split('|')
+      puts "Name: #{name}"
+      puts "Email: #{email}"
+      puts '----------'
+    end
+  end
+end
+
 while true
-  puts "1. Add Contact\n2. List all contacts\n3. Delete contact\n0. Exit"
+  puts "1. Add Contact\n2. List all contacts\n3. Delete contact\n4. Search \n0. Exit"
   option = gets.chomp.strip.to_i
   case option
   when 1
@@ -55,6 +69,8 @@ while true
     view_contacts
   when 3
     delete_contact
+  when 4
+    search_contact
   when 0
     exit
   else
