@@ -1,10 +1,6 @@
-#Contact manager
-It must store name, address, email and phone of every contact.
-It should store all the contacts in a CSV file. A user should be able to create/edit
-and view all the contacts through a Menu Driven interface.
-User should be able to search by name,email or number. Your solution should be OOP driven.
+The contacts should persistent.
 
-  1. A user should be able to add a new contact *1 marks*
+  +1. A user should be able to add a new contact *1 marks*
   2. A user should be able to view a list of existing contacts *1 marks*
   3. A user should be able to delete a contact *1 mark*
   4. A user should be able to search for a contact based on name *2 marks*
@@ -17,15 +13,6 @@ User should be able to search by name,email or number. Your solution should be O
       for the given index, it should return an appropriate status code.
 
 
-##Example interaction
-
-~~~bash
-  $ ruby contact-manager.rb
-    1. List contacts
-    2. Add contact ..
-    ..
-
-    1
-
-    Name: Khaja Minhajuddin, Email: ........
-~~~
+  1. Get it working. Don't worry about the quality of code.
+  2. Clean up your code
+  3. Repeat 1 to 2 for next task
