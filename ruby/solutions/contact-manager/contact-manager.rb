@@ -3,19 +3,53 @@ CONTACT_DATA_FILE = 'contacts.txt'
 #DRY
 #DONT REPEAT YOURSELF
 
-def add_contact
-  #1. A user should be able to add a new contact *1 marks*
+def get_contact
   puts "Name:"
   name = gets.chomp.strip
   puts "Email:"
   email = gets.chomp.strip
+  [name, email]
+end
+
+def add_contact
+  #1. A user should be able to add a new contact *1 marks*
   #puts "Phone:"
   #phone = gets.chomp.strip
   #puts "Address:"
   #address = gets.chomp.strip
+  name, email = get_contact
 
   File.open(CONTACT_DATA_FILE, 'a+') do |f|
     f.write "#{name}|#{email}\n"
+  end
+end
+
+def edit_contact
+  contacts = list_contacts
+  puts "Enter the serial number of the contact you want to edit:"
+  id = gets.chomp.strip.to_i
+
+  #get the new data
+  name, email = get_contact
+
+  #overwrite that line with new data
+  contacts[id-1] = "#{name}|#{email}\n"
+    save_contacts(contacts)
+end
+
+def delete_contact
+  contacts = list_contacts
+  puts "Enter the serial number of the contact you want to delete:"
+  id = gets.chomp.strip.to_i
+  contacts.delete_at(id - 1)
+  save_contacts(contacts)
+end
+
+def save_contacts(contacts)
+  File.open(CONTACT_DATA_FILE, 'w') do |f|
+    contacts.each do |contact|
+      f.write "#{contact}"
+    end
   end
 end
 
@@ -24,11 +58,11 @@ def read_contacts
 end
 
 def print_contact(line, serial_number)
-    name, email = line.split('|')
-    puts "#{serial_number}."
-    puts "Name: #{name}"
-    puts "Email: #{email}"
-    puts '----------'
+  name, email = line.split('|')
+  puts "#{serial_number}."
+  puts "Name: #{name}"
+  puts "Email: #{email}"
+  puts '----------'
 end
 
 def print_bar
@@ -43,18 +77,6 @@ def list_contacts
   end
   print_bar
   return contacts
-end
-
-def delete_contact
-  contacts = list_contacts
-  puts "Enter the serial number of the contact you want to delete:"
-  id = gets.chomp.strip.to_i
-  contacts.delete_at(id - 1)
-  File.open(CONTACT_DATA_FILE, 'w') do |f|
-    contacts.each do |contact|
-      f.write "#{contact}"
-    end
-  end
 end
 
 def search_contact
@@ -72,27 +94,6 @@ def search_contact
   puts "Found #{search_results.length} results"
   search_results.each_with_index do |result, index|
     print_contact(result, index + 1)
-  end
-end
-
-def edit_contact
-  contacts = list_contacts
-  puts "Enter the serial number of the contact you want to edit:"
-  id = gets.chomp.strip.to_i
-
-  #get the new data
-  puts "New Name:"
-  name = gets.chomp.strip
-  puts "New Email:"
-  email = gets.chomp.strip
-
-  #overwrite that line with new data
-  contacts[id-1] = "#{name}|#{email}\n"
-
-  File.open(CONTACT_DATA_FILE, 'w') do |f|
-    contacts.each do |contact|
-      f.write "#{contact}"
-    end
   end
 end
 
