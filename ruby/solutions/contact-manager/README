@@ -1,8 +1,8 @@
 The contacts should persistent.
 
   +1. A user should be able to add a new contact *1 marks*
-  2. A user should be able to view a list of existing contacts *1 marks*
-  3. A user should be able to delete a contact *1 mark*
+  +2. A user should be able to view a list of existing contacts *1 marks*
+  +3. A user should be able to delete a contact *1 mark*
   4. A user should be able to search for a contact based on name *2 marks*
   5. A user should be able to edit an existing contact *3 marks*
 
