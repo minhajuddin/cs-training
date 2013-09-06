@@ -4,7 +4,7 @@ The contacts should persistent.
   +2. A user should be able to view a list of existing contacts *1 marks*
   +3. A user should be able to delete a contact *1 mark*
   +4. A user should be able to search for a contact based on name *2 marks*
-  5. A user should be able to edit an existing contact *3 marks*
+  +5. A user should be able to edit an existing contact *3 marks*
 
   6. Write a website using Sinatra that uses the same CSV file to *2 marks*
       show the contacts. For example: localhost:3000/contacts should list all the
