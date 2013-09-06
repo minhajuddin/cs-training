@@ -8,19 +8,19 @@ def get_contact
   name = gets.chomp.strip
   puts "Email:"
   email = gets.chomp.strip
-  [name, email]
+  puts "Phone:"
+  phone = gets.chomp.strip
+  puts "Address:"
+  address = gets.chomp.strip
+  [name, email, phone, address]
 end
 
+#1. A user should be able to add a new contact *1 marks*
 def add_contact
-  #1. A user should be able to add a new contact *1 marks*
-  #puts "Phone:"
-  #phone = gets.chomp.strip
-  #puts "Address:"
-  #address = gets.chomp.strip
-  name, email = get_contact
+  name, email, phone, address = get_contact
 
   File.open(CONTACT_DATA_FILE, 'a+') do |f|
-    f.write "#{name}|#{email}\n"
+    f.write "#{name}|#{email}|#{phone}|#{address}\n"
   end
 end
 
@@ -30,11 +30,11 @@ def edit_contact
   id = gets.chomp.strip.to_i
 
   #get the new data
-  name, email = get_contact
+  name, email, phone, address = get_contact
 
   #overwrite that line with new data
-  contacts[id-1] = "#{name}|#{email}\n"
-    save_contacts(contacts)
+  contacts[id-1] = "#{name}|#{email}|#{phone}|#{address}\n"
+  save_contacts(contacts)
 end
 
 def delete_contact
@@ -58,10 +58,12 @@ def read_contacts
 end
 
 def print_contact(line, serial_number)
-  name, email = line.split('|')
+  name, email, phone, address = line.split('|')
   puts "#{serial_number}."
   puts "Name: #{name}"
   puts "Email: #{email}"
+  puts "Phone: #{phone}"
+  puts "Address: #{address}"
   puts '----------'
 end
 
