@@ -3,7 +3,7 @@
   A generic note taking application. 'name' does not contain spaces
   
 
-  1. A user should be able to add a note
+  - A user should be able to add a note
     
 ~~~sh
       $ note <name> <value>
@@ -11,7 +11,7 @@
       $ note electricity-no 33213413
 ~~~
 
-  2. A user should be able to pull up a note based on the name
+  - A user should be able to pull up a note based on the name
 
 ~~~sh
       $ note -s address
@@ -19,7 +19,7 @@
       HNo 33, Hyderabad
 ~~~
 
-  3. A user should be able to pull up notes on partial name matches
+  - A user should be able to pull up notes on partial name matches
       
 ~~~sh
       $ note -s add
@@ -27,28 +27,28 @@
       # if there are multiple matches print the matching notes
 ~~~
 
-  4. A user should be able to delete a note
+  - A user should be able to delete a note
     
 ~~~sh
       $ note -d <name>
       $ note -d address
 ~~~
 
-  5. A user should be able to list all the notes
+  - A user should be able to list all the notes
 
 ~~~sh
       $ note
       # should list all the notes
 ~~~
 
-  6. A user should be able to search in the note values or names
+  - A user should be able to search in the note values or names
 
 ~~~sh
       $ note -q foo
       # show all notes containing the name 'foo' or value 'foo'
 ~~~
 
-  7. A user should be able to add a multi line note
+  - A user should be able to add a multi line note
 
 ~~~sh
       $ note -m address
@@ -60,7 +60,7 @@
 
 ## Bonus
 
-  1. If a user enters an existing 'name' then overwrite its value
+  - If a user enters an existing 'name' then overwrite its value
     
 ~~~sh
       $ note name Khaja
@@ -69,7 +69,7 @@
       # should print Jack
 ~~~
 
-  2. Allow entering of values without putting them in double quotes
+  - Allow entering of values without putting them in double quotes
     
 ~~~sh
       #instead of this
@@ -77,10 +77,12 @@
       $ note name "Khaja Minhajuddin"
       #allow this
       $ note name Khaja Minhajuddin
-  3. Cleanup the code
-  4. Print the name value in a nice format
-  5. Search should be case insensitive
-  6. At the time of deletion print the current value of the note
+~~~
+
+  - Cleanup the code
+  - Print the name value in a nice format
+  - Search should be case insensitive
+  - At the time of deletion print the current value of the note
 
 ## Bonus 2
 
