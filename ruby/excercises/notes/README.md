@@ -81,3 +81,21 @@
   4. Print the name value in a nice format
   5. Search should be case insensitive
   6. At the time of deletion print the current value of the note
+
+## Bonus 2
+
+  - Add ability to namespace the tokens
+    
+~~~sh
+    $ note personal.name Khaja Minhajuddin
+    $ note personal.email minhajuddin@mailinator.com
+    $ note personal.age 28
+    $ note -s personal
+    # should print
+    #   name: Khaja Minhajuddin
+    #   email: minhajuddin@mailinator.com
+    #   age: 28
+    $ note -s personal.name
+    # should print
+    # Khaja Minhajuddin
+~~~
